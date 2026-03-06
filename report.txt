@@ -1,0 +1,826 @@
+(1000, 8)
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 1000 entries, 0 to 999
+Data columns (total 8 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   Unnamed: 0         1000 non-null   int64  
+ 1   Brand              1000 non-null   object 
+ 2   Model              1000 non-null   object 
+ 3   Selling Platform   1000 non-null   object 
+ 4   Rating             1000 non-null   float64
+ 5   Refresh Rate (Hz)  1000 non-null   int64  
+ 6   Price (USD)        1000 non-null   float64
+ 7   Rating.1           1000 non-null   float64
+dtypes: float64(3), int64(2), object(3)
+memory usage: 62.6+ KB
+
+Unnamed: 0           0
+Brand                0
+Model                0
+Selling Platform     0
+Rating               0
+Refresh Rate (Hz)    0
+Price (USD)          0
+Rating.1             0
+Колонка>	среднее	медиана	отклонение
+Rating>	4.00;	4.00;	0.58
+Refresh Rate (Hz)>	116.30;	120.00;	36.96
+Price (USD)>	1093.73;	1096.72;	530.73
+Rating.1>	4.00;	4.00;	0.58
+Brand
+Brand
+Samsung     99
+Apple       97
+Realme      94
+Oppo        89
+Xiaomi      87
+Vivo        80
+OnePlus     79
+Motorola    78
+Google      77
+Huawei      75
+Sony        73
+Nokia       72
+Model
+Model
+Mate Edge 25           4
+P Series Ultra 11      4
+Mate Pro 12            3
+Mate Turbo 24          3
+Nord Ultra 14          3
+Nord Ultra 24          3
+Redmi Note 5G 20       3
+Nord Ultra 12          3
+Galaxy S Plus 13       3
+Redmi Note Mini 25     3
+Moto G 5G 18           3
+Galaxy S Turbo 15      3
+Reno Lite 10           3
+V Series SE 10         3
+Redmi Note Max 14      3
+P Series SE 11         3
+Reno 5G 17             3
+Redmi Note Lite 21     3
+Pixel 5G 12            3
+iPhone Edge 24         3
+Mate Edge 18           3
+Redmi Note 5G 10       3
+Pixel Plus 23          3
+Pixel SE 20            3
+Pixel Ultra 10         3
+Redmi Note SE 17       3
+Redmi Note Edge 17     3
+Nord Edge 24           2
+Narzo Edge 12          2
+V Series SE 16         2
+Xperia Mini 11         2
+Reno Pro 25            2
+Pixel Max 24           2
+Moto G Plus 24         2
+Redmi Note Pro 10      2
+Redmi Note Ultra 10    2
+Xperia Lite 18         2
+Galaxy S Pro 24        2
+Reno Ultra 16          2
+Pixel Ultra 18         2
+V Series Mini 22       2
+Redmi Note Lite 10     2
+Mate Ultra 25          2
+Mate Ultra 10          2
+Narzo Edge 14          2
+Narzo Lite 11          2
+Moto G Edge 10         2
+Nord Lite 18           2
+Mate Turbo 20          2
+V Series Mini 14       2
+Reno Mini 24           2
+P Series Lite 23       2
+Mate Lite 12           2
+Galaxy S Plus 15       2
+Nord Ultra 20          2
+Mate Lite 10           2
+Pixel Edge 15          2
+Narzo Lite 25          2
+Pixel Lite 14          2
+Xperia Edge 17         2
+iPhone Mini 25         2
+V Series Turbo 16      2
+P Series Mini 14       2
+Galaxy S Plus 22       2
+Moto G Ultra 17        2
+Galaxy S Turbo 13      2
+Moto G Plus 17         2
+Mate Turbo 17          2
+Reno Ultra 11          2
+Moto G Mini 11         2
+Mate Mini 15           2
+Mate SE 19             2
+Redmi Note Mini 16     2
+Xperia Max 15          2
+Redmi Note Lite 22     2
+Mate Ultra 11          2
+Narzo 5G 13            2
+Reno Mini 25           2
+Galaxy S Ultra 16      2
+Galaxy S SE 23         2
+Reno Pro 21            2
+P Series Lite 19       2
+Nord SE 23             2
+V Series Edge 16       2
+Mate Mini 24           2
+Narzo Max 22           2
+P Series 5G 12         2
+V Series SE 19         2
+iPhone Pro 14          2
+Reno 5G 18             2
+iPhone Mini 15         2
+Galaxy S SE 10         2
+Mate Pro 25            2
+Nord Plus 25           2
+Moto G Ultra 19        2
+Mate Mini 14           2
+Nord Edge 21           2
+Pixel Pro 25           2
+Nord Pro 12            2
+Nord Lite 15           2
+Nord Edge 11           2
+Moto G Pro 13          2
+iPhone Max 12          2
+Pixel Max 20           2
+Nord Edge 22           2
+V Series Turbo 10      2
+Reno Max 19            2
+Xperia Pro 18          2
+Pixel Plus 17          2
+Pixel SE 17            2
+Xperia Lite 12         2
+Moto G Ultra 25        2
+Reno Max 14            2
+Narzo Lite 22          2
+P Series Edge 21       2
+Galaxy S 5G 14         2
+iPhone SE 11           2
+P Series Pro 16        2
+Galaxy S Turbo 23      2
+Nord Lite 21           2
+Xperia Edge 11         2
+Redmi Note Turbo 19    2
+Redmi Note Mini 20     2
+Nord Pro 16            2
+Galaxy S Lite 14       2
+Moto G Pro 15          2
+V Series Pro 10        2
+Moto G Pro 12          2
+Narzo SE 14            2
+Narzo Max 19           2
+Redmi Note Pro 11      2
+Galaxy S Mini 16       2
+Pixel 5G 23            2
+Mate 5G 20             2
+Reno 5G 19             2
+P Series Turbo 20      2
+Narzo Mini 17          2
+Xperia Pro 22          2
+Moto G 5G 17           2
+Pixel Turbo 23         2
+Galaxy S Mini 19       2
+Redmi Note Pro 23      2
+P Series Mini 18       2
+Mate Pro 17            2
+Mate 5G 23             2
+iPhone Turbo 21        2
+iPhone Lite 22         2
+V Series Ultra 24      2
+Mate Max 20            2
+Redmi Note Turbo 23    2
+Moto G SE 18           2
+Nord Max 20            2
+Reno Mini 23           2
+Galaxy S SE 16         2
+P Series Edge 15       2
+Nord Plus 14           2
+iPhone Turbo 13        2
+V Series Max 19        2
+Nord SE 15             2
+Nord Turbo 15          2
+Redmi Note Max 19      2
+P Series 5G 17         2
+P Series Pro 18        2
+Reno 5G 25             2
+Xperia Plus 14         2
+iPhone Plus 21         2
+Nord Turbo 24          2
+Narzo SE 16            2
+Reno Turbo 17          2
+Mate Max 18            2
+Moto G Turbo 23        2
+V Series Turbo 22      2
+Mate Plus 23           2
+Pixel Lite 19          2
+Moto G Plus 11         2
+Mate 5G 10             2
+Nord Plus 19           2
+P Series Plus 16       2
+Galaxy S Lite 19       2
+Xperia Plus 11         2
+Galaxy S Ultra 14      2
+Redmi Note Plus 21     2
+Narzo Pro 22           2
+Pixel Lite 17          2
+Narzo Edge 17          2
+Narzo Ultra 24         2
+iPhone Ultra 21        2
+Redmi Note SE 18       2
+V Series Lite 21       2
+Nord Edge 20           2
+Reno Plus 11           2
+iPhone Max 19          2
+Redmi Note Edge 13     2
+Reno Turbo 24          2
+Mate Ultra 16          2
+Galaxy S Ultra 22      2
+P Series 5G 19         2
+Redmi Note Max 16      2
+Pixel 5G 14            2
+Pixel Plus 18          2
+Narzo Edge 16          2
+Reno Plus 23           1
+Mate Mini 10           1
+Pixel Mini 20          1
+Nord Ultra 22          1
+Mate Mini 20           1
+Galaxy S Edge 15       1
+Narzo Plus 23          1
+Pixel Plus 22          1
+Narzo Pro 12           1
+Mate 5G 11             1
+Galaxy S Mini 11       1
+Moto G SE 12           1
+Mate Plus 15           1
+Narzo SE 13            1
+Redmi Note SE 10       1
+P Series Mini 21       1
+V Series Max 20        1
+Pixel Mini 15          1
+Redmi Note Mini 21     1
+Xperia Max 22          1
+Nord Pro 11            1
+Galaxy S Turbo 20      1
+P Series Max 23        1
+Redmi Note Lite 16     1
+Xperia Turbo 18        1
+P Series Pro 17        1
+V Series Lite 12       1
+Redmi Note Turbo 24    1
+Galaxy S Plus 11       1
+Mate Pro 21            1
+Pixel Edge 13          1
+P Series Turbo 24      1
+Pixel Edge 11          1
+Pixel Mini 24          1
+Reno Lite 24           1
+Galaxy S Mini 25       1
+iPhone Lite 23         1
+Nord SE 20             1
+V Series Plus 25       1
+Mate Edge 23           1
+V Series Edge 20       1
+Mate Edge 11           1
+Redmi Note Lite 12     1
+Nord Lite 14           1
+iPhone Mini 11         1
+Moto G Lite 14         1
+Narzo 5G 23            1
+iPhone Mini 23         1
+Mate Plus 14           1
+Nord 5G 11             1
+Moto G Mini 12         1
+Xperia Max 23          1
+Pixel Turbo 11         1
+Xperia Pro 11          1
+Galaxy S Plus 17       1
+Reno Plus 22           1
+Xperia Pro 16          1
+P Series Plus 10       1
+Mate Turbo 10          1
+Reno SE 23             1
+Pixel Edge 22          1
+iPhone Edge 11         1
+Moto G SE 15           1
+iPhone Turbo 12        1
+V Series Pro 11        1
+Narzo Edge 21          1
+Narzo Edge 10          1
+Mate Lite 11           1
+Pixel Pro 19           1
+Pixel SE 15            1
+Nord Max 12            1
+Redmi Note Ultra 22    1
+P Series Max 16        1
+iPhone 5G 10           1
+Moto G Edge 25         1
+Galaxy S Edge 13       1
+Reno SE 15             1
+Nord SE 13             1
+Mate 5G 14             1
+Galaxy S Plus 21       1
+Xperia Pro 17          1
+Narzo Pro 23           1
+Narzo SE 10            1
+Pixel Lite 24          1
+iPhone Max 20          1
+Reno Mini 11           1
+Nord Turbo 17          1
+Xperia Mini 17         1
+Galaxy S 5G 15         1
+P Series Turbo 13      1
+iPhone Turbo 17        1
+Narzo Mini 15          1
+iPhone Mini 22         1
+Pixel Ultra 22         1
+Moto G Mini 15         1
+Xperia Pro 23          1
+Mate Mini 13           1
+iPhone Edge 16         1
+Mate Plus 12           1
+P Series Ultra 19      1
+Pixel Ultra 24         1
+Nord Lite 20           1
+Moto G Plus 10         1
+Redmi Note Turbo 21    1
+Pixel Plus 10          1
+Mate Turbo 23          1
+Moto G Plus 12         1
+Redmi Note Ultra 18    1
+iPhone Lite 14         1
+V Series Plus 12       1
+Pixel SE 23            1
+Reno Plus 16           1
+iPhone Ultra 11        1
+Xperia Ultra 20        1
+Redmi Note 5G 17       1
+P Series Mini 10       1
+Pixel Lite 20          1
+Reno Ultra 14          1
+Redmi Note Edge 10     1
+iPhone Edge 23         1
+Xperia Pro 24          1
+iPhone 5G 12           1
+V Series Plus 11       1
+Redmi Note Pro 13      1
+Narzo Edge 23          1
+Reno Edge 25           1
+Mate Pro 15            1
+Redmi Note Pro 14      1
+P Series Mini 12       1
+Narzo Lite 17          1
+iPhone Turbo 10        1
+Moto G 5G 12           1
+Xperia Pro 15          1
+Narzo Edge 22          1
+Xperia Turbo 21        1
+Narzo Pro 17           1
+Narzo 5G 11            1
+Nord Max 19            1
+Nord SE 24             1
+iPhone Ultra 22        1
+P Series Ultra 15      1
+Reno Max 21            1
+Galaxy S Ultra 11      1
+Xperia Lite 15         1
+V Series 5G 12         1
+Redmi Note SE 11       1
+Nord 5G 16             1
+Redmi Note Ultra 11    1
+Reno Pro 11            1
+Narzo Lite 20          1
+Nord Pro 15            1
+Galaxy S Ultra 13      1
+Reno Mini 14           1
+Reno Mini 13           1
+Xperia Lite 16         1
+iPhone SE 25           1
+Galaxy S Max 22        1
+iPhone Plus 12         1
+iPhone Mini 12         1
+Xperia Mini 18         1
+Moto G SE 19           1
+Nord Mini 18           1
+Nord Plus 15           1
+Xperia SE 18           1
+Moto G Plus 20         1
+V Series Ultra 15      1
+Mate Max 21            1
+Nord Ultra 23          1
+Nord Pro 25            1
+Mate Edge 14           1
+Pixel SE 19            1
+Moto G Lite 10         1
+Pixel Mini 25          1
+Redmi Note Turbo 18    1
+Nord Turbo 13          1
+Moto G Plus 18         1
+Redmi Note Lite 19     1
+Mate Mini 18           1
+Reno Turbo 10          1
+iPhone Max 15          1
+V Series 5G 14         1
+Narzo Turbo 25         1
+Pixel Lite 12          1
+Reno Ultra 10          1
+V Series Max 11        1
+V Series SE 13         1
+Narzo Max 15           1
+Redmi Note Lite 24     1
+Mate Ultra 18          1
+Moto G SE 21           1
+Narzo Turbo 10         1
+Moto G 5G 13           1
+Moto G Ultra 12        1
+Nord Lite 25           1
+Pixel Lite 21          1
+Xperia SE 24           1
+Moto G Ultra 18        1
+Narzo Edge 13          1
+Mate Turbo 11          1
+Xperia Turbo 23        1
+Mate Ultra 23          1
+Moto G Lite 15         1
+V Series SE 12         1
+Redmi Note Ultra 20    1
+Moto G Pro 24          1
+Reno Mini 19           1
+V Series Ultra 14      1
+iPhone Lite 16         1
+Xperia Max 24          1
+Galaxy S Pro 20        1
+iPhone Mini 21         1
+Narzo Plus 25          1
+Galaxy S Edge 24       1
+Pixel Edge 20          1
+Narzo Plus 12          1
+Xperia Pro 25          1
+P Series Turbo 17      1
+Narzo Pro 14           1
+iPhone SE 22           1
+Nord Turbo 21          1
+Narzo Ultra 18         1
+iPhone Turbo 11        1
+Reno Lite 11           1
+Mate Plus 16           1
+Xperia Lite 19         1
+Reno Lite 21           1
+V Series Lite 11       1
+Moto G SE 11           1
+Moto G Mini 23         1
+Xperia Turbo 19        1
+Narzo 5G 19            1
+Redmi Note 5G 21       1
+Xperia 5G 22           1
+Moto G Plus 16         1
+Reno Mini 21           1
+iPhone Pro 11          1
+iPhone SE 14           1
+Narzo SE 15            1
+Reno Edge 17           1
+V Series Turbo 23      1
+V Series Plus 17       1
+Galaxy S Max 11        1
+Mate Edge 12           1
+Pixel Max 25           1
+Narzo Ultra 11         1
+Xperia Ultra 14        1
+P Series Plus 24       1
+V Series Mini 20       1
+iPhone 5G 23           1
+Reno Edge 11           1
+Redmi Note Turbo 10    1
+Redmi Note Edge 22     1
+Moto G Plus 14         1
+V Series Pro 20        1
+Galaxy S Lite 12       1
+P Series 5G 13         1
+Galaxy S 5G 19         1
+iPhone 5G 11           1
+V Series Plus 23       1
+Narzo SE 24            1
+Redmi Note SE 19       1
+Moto G Turbo 17        1
+P Series Pro 12        1
+Pixel Turbo 19         1
+Pixel Turbo 12         1
+Redmi Note Mini 11     1
+Nord Mini 21           1
+Galaxy S Pro 13        1
+Mate Plus 22           1
+Xperia Mini 13         1
+Nord Mini 14           1
+Galaxy S SE 20         1
+Galaxy S Turbo 24      1
+Redmi Note Max 23      1
+Moto G Lite 17         1
+P Series Turbo 18      1
+P Series Edge 20       1
+Galaxy S Turbo 11      1
+Moto G Pro 23          1
+Redmi Note Pro 25      1
+Moto G Lite 22         1
+P Series Max 10        1
+Pixel Max 18           1
+Reno SE 11             1
+iPhone SE 20           1
+Redmi Note Edge 12     1
+iPhone Lite 25         1
+Pixel Pro 16           1
+P Series SE 19         1
+Galaxy S Pro 10        1
+Redmi Note Edge 23     1
+Xperia Mini 22         1
+Mate Lite 18           1
+Xperia Edge 15         1
+Narzo Pro 16           1
+Pixel Plus 14          1
+Xperia Lite 17         1
+Moto G Turbo 25        1
+Mate Edge 20           1
+Galaxy S Plus 19       1
+Galaxy S Turbo 12      1
+Moto G Pro 22          1
+Narzo Mini 16          1
+iPhone Max 13          1
+Redmi Note SE 22       1
+Mate Plus 10           1
+Nord SE 16             1
+Nord Ultra 19          1
+Xperia Turbo 10        1
+Galaxy S Edge 21       1
+Xperia Edge 13         1
+Xperia Max 12          1
+P Series Lite 18       1
+P Series Mini 25       1
+Redmi Note SE 24       1
+Mate Mini 11           1
+Mate Mini 19           1
+Reno SE 21             1
+Galaxy S Lite 25       1
+Mate Plus 17           1
+Pixel Plus 11          1
+Reno 5G 12             1
+Narzo 5G 24            1
+Xperia 5G 24           1
+Redmi Note Turbo 17    1
+iPhone 5G 25           1
+Pixel Edge 17          1
+Pixel Mini 11          1
+P Series SE 21         1
+Moto G 5G 25           1
+Reno SE 22             1
+Reno Turbo 12          1
+Nord Plus 18           1
+Galaxy S Turbo 17      1
+Reno SE 10             1
+P Series Turbo 23      1
+Moto G Turbo 11        1
+iPhone Pro 16          1
+Xperia 5G 16           1
+iPhone Pro 25          1
+Redmi Note Mini 19     1
+Reno Mini 20           1
+Reno 5G 15             1
+Nord 5G 21             1
+V Series Ultra 12      1
+Moto G Turbo 22        1
+Redmi Note Edge 18     1
+Nord Pro 19            1
+Reno Edge 14           1
+Redmi Note Ultra 24    1
+Narzo Plus 22          1
+Xperia Max 11          1
+Pixel Edge 16          1
+Narzo Lite 21          1
+V Series Max 25        1
+Mate Edge 24           1
+Xperia SE 14           1
+Reno Pro 13            1
+Moto G Lite 18         1
+Moto G Lite 20         1
+Nord Edge 25           1
+Reno Ultra 17          1
+iPhone SE 23           1
+Mate Lite 15           1
+Nord Ultra 11          1
+Pixel SE 16            1
+Pixel Max 13           1
+Reno Lite 12           1
+Reno Lite 14           1
+Pixel Max 12           1
+iPhone Mini 14         1
+Xperia Lite 13         1
+Mate Edge 19           1
+V Series Max 21        1
+Mate Max 19            1
+Nord 5G 14             1
+Narzo Lite 18          1
+Nord SE 10             1
+Redmi Note Mini 12     1
+V Series Edge 15       1
+Mate SE 10             1
+V Series Max 10        1
+iPhone SE 10           1
+Galaxy S Turbo 19      1
+Redmi Note Turbo 13    1
+Nord Turbo 23          1
+Moto G Plus 22         1
+Reno Mini 12           1
+Reno Mini 22           1
+Narzo Max 24           1
+iPhone Plus 19         1
+Galaxy S Plus 25       1
+Reno Turbo 21          1
+Redmi Note Edge 24     1
+iPhone Pro 10          1
+P Series Mini 20       1
+V Series Pro 13        1
+Narzo Ultra 13         1
+Mate Plus 19           1
+Pixel Lite 18          1
+V Series SE 21         1
+Xperia SE 16           1
+Xperia Turbo 13        1
+Xperia Ultra 21        1
+P Series Plus 21       1
+Reno Pro 15            1
+Reno 5G 23             1
+Pixel Turbo 18         1
+Moto G 5G 20           1
+Pixel Turbo 24         1
+Mate SE 14             1
+Moto G Mini 24         1
+Pixel Max 23           1
+V Series Pro 23        1
+Xperia Max 25          1
+Galaxy S Lite 21       1
+P Series Pro 23        1
+iPhone Max 25          1
+iPhone Pro 23          1
+Narzo Turbo 17         1
+Redmi Note Ultra 12    1
+Xperia 5G 18           1
+V Series Pro 12        1
+Galaxy S Lite 15       1
+Xperia Turbo 16        1
+Nord 5G 24             1
+Xperia Max 10          1
+Xperia Max 13          1
+Nord Max 11            1
+P Series Ultra 10      1
+Nord Ultra 25          1
+Moto G Max 17          1
+Galaxy S SE 24         1
+Mate Ultra 12          1
+V Series Edge 12       1
+P Series 5G 21         1
+Reno Lite 16           1
+V Series 5G 24         1
+Redmi Note 5G 12       1
+Mate Pro 18            1
+iPhone Turbo 25        1
+Nord Max 22            1
+Galaxy S Mini 13       1
+iPhone Edge 12         1
+P Series 5G 25         1
+Reno Ultra 23          1
+Mate Lite 25           1
+Moto G Max 10          1
+Moto G Plus 21         1
+Xperia Max 16          1
+Reno Plus 20           1
+Galaxy S Max 10        1
+P Series Turbo 15      1
+Narzo Mini 21          1
+Galaxy S SE 21         1
+Moto G Max 25          1
+Mate Turbo 13          1
+Moto G Lite 25         1
+Reno Plus 21           1
+P Series Edge 25       1
+V Series SE 18         1
+Redmi Note Turbo 11    1
+V Series Edge 22       1
+Moto G 5G 11           1
+V Series Plus 16       1
+V Series 5G 11         1
+Reno Pro 23            1
+Moto G Ultra 21        1
+iPhone 5G 13           1
+Nord Max 23            1
+Moto G Edge 17         1
+Xperia Max 17          1
+Pixel Pro 12           1
+Mate SE 16             1
+Reno SE 24             1
+Galaxy S Ultra 21      1
+Narzo Plus 11          1
+Mate Lite 16           1
+Narzo Plus 18          1
+P Series Max 14        1
+iPhone Mini 13         1
+iPhone Lite 21         1
+P Series Pro 22        1
+Redmi Note Pro 17      1
+iPhone Ultra 16        1
+Nord 5G 23             1
+P Series Plus 18       1
+Narzo Mini 11          1
+Narzo Max 13           1
+Galaxy S Pro 12        1
+Pixel Edge 19          1
+Moto G Max 18          1
+Moto G Ultra 20        1
+Xperia Pro 12          1
+Reno SE 20             1
+Narzo Plus 16          1
+P Series SE 14         1
+Galaxy S Pro 22        1
+Moto G SE 10           1
+Mate Edge 21           1
+Reno Pro 10            1
+Moto G Max 14          1
+Moto G Lite 24         1
+Moto G Mini 21         1
+Mate SE 18             1
+iPhone Edge 14         1
+iPhone Ultra 12        1
+P Series Mini 17       1
+Nord Turbo 22          1
+Pixel Mini 22          1
+Pixel Plus 25          1
+Galaxy S Max 17        1
+Moto G Turbo 16        1
+P Series Pro 13        1
+Reno Ultra 19          1
+Narzo Max 23           1
+Nord Plus 12           1
+Mate Turbo 25          1
+Xperia Edge 20         1
+Galaxy S 5G 23         1
+Pixel Ultra 19         1
+P Series SE 24         1
+Narzo Turbo 21         1
+Mate 5G 15             1
+Xperia Plus 18         1
+Narzo Plus 14          1
+Reno SE 18             1
+P Series Pro 14        1
+P Series Lite 13       1
+Narzo Ultra 22         1
+P Series SE 16         1
+Moto G Pro 19          1
+Pixel 5G 18            1
+Nord Edge 14           1
+V Series Mini 19       1
+Narzo Max 25           1
+Redmi Note SE 25       1
+Galaxy S SE 14         1
+P Series Lite 10       1
+Xperia 5G 19           1
+Xperia Mini 10         1
+V Series Mini 25       1
+Reno Max 15            1
+Nord Pro 17            1
+Mate Pro 10            1
+Reno Ultra 12          1
+Xperia Mini 24         1
+iPhone Pro 22          1
+Moto G Edge 19         1
+V Series Turbo 25      1
+Xperia 5G 10           1
+Moto G Ultra 16        1
+Galaxy S 5G 24         1
+Redmi Note 5G 25       1
+P Series Edge 13       1
+Reno Pro 20            1
+Xperia Ultra 19        1
+P Series Mini 19       1
+V Series Lite 20       1
+Mate Pro 19            1
+Redmi Note 5G 11       1
+Redmi Note Lite 14     1
+Galaxy S Lite 20       1
+Xperia Plus 12         1
+iPhone Pro 20          1
+Galaxy S Edge 23       1
+Nord Ultra 15          1
+V Series Edge 25       1
+Redmi Note 5G 23       1
+Selling Platform
+Selling Platform
+eBay                134
+Walmart             134
+AliExpress          127
+Reliance Digital    127
+Flipkart            126
+Amazon              124
+Official Store      115
+Best Buy            113
